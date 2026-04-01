@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated output (keep directory structure but not generated files)
+output/matches/*.jpg
+output/matches/*.png
+output/reconstruction/*.ply
+output/reconstruction/*.txt
+
+# Calibration results (generated, but tracked via .gitkeep in the folder)
+calibration_results/*.xml
+
+# User data images (not committed – add your own)
+data/calibration/*.jpg
+data/calibration/*.jpeg
+data/calibration/*.png
+data/scene/*.jpg
+data/scene/*.jpeg
+data/scene/*.png
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
