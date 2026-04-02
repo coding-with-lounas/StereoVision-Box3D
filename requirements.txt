@@ -1,0 +1,5 @@
+opencv-python          # Pour SIFT, la calibration et le traitement d'image
+opencv-contrib-python  # Version étendue contenant certains algorithmes de vision
+numpy                  # Pour les calculs mathématiques et les matrices
+matplotlib             # Pour afficher tes résultats et tes graphiques
+scipy                  # Pour les fonctions d'optimisation (si nécessaire)
