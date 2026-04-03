@@ -3,3 +3,4 @@ opencv-contrib-python  # Version étendue contenant certains algorithmes de visi
 numpy                  # Pour les calculs mathématiques et les matrices
 matplotlib             # Pour afficher tes résultats et tes graphiques
 scipy                  # Pour les fonctions d'optimisation (si nécessaire)
+open3d                 # Pour écrire/visualiser le nuage de points 3D (.ply)

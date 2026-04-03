@@ -77,7 +77,7 @@ ret, mtx, dist, rvecs, tvecs = cv.calibrateCamera(objpoints, imgpoints, image_si
 if ret:
     print("Calibration réussie !")
     print("Matrice Intrinsèque (K) :\n", mtx)
-    
+    print("Distorsion : \n",dist)
     # 4. Sauvegarde des paramètres pour la suite du projet
     cv_file = cv.FileStorage("../calibration_results/camera_params.xml", cv.FileStorage_WRITE)
     cv_file.write("K", mtx)
