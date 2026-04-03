@@ -16,8 +16,8 @@ import os
 #  CONFIG  ← à modifier selon ton acquisition
 # ─────────────────────────────────────────────
 
-CALIBRATION_FILE = '../calibration_results/camera_params.xml'
-OUTPUT_DIR       = '../output/reconstruction/'
+CALIBRATION_FILE = './calibration_results/camera_params.xml'
+OUTPUT_DIR       = './output/reconstruction/'
 OUTPUT_PLY       = os.path.join(OUTPUT_DIR, 'nuage_boites.ply')
 
 BASELINE = 100.0   # ← Distance entre les 2 positions de ta caméra EN MM
